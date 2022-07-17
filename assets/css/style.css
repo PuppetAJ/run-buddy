@@ -1,3 +1,9 @@
+/* removes legacy styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
@@ -7,4 +13,32 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin:0;
+    display: inline;
+}
+/* text decoration is none due to the fact that the <a> element automatically makes text blue and underlined when clicked */
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+/* float allows a block level element to allow other elements to wrap around it */
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+/* overrides block level nature of the ul li elements to allow them to be next to each other (inline) */
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
 }
