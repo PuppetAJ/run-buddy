@@ -256,3 +256,23 @@ section {
     width: 400px;
     height: 400px;
 }
+
+.contact-info h3 {
+    color:#fce138;
+    font-size: 32px;
+}
+
+.contact-info address, .contact-info p {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.contact-info a {
+    color: #fce138;
+}
+
+.contact-info span {
+    margin: 20px 0;
+}
