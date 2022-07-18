@@ -11,4 +11,6 @@ A website that offers fitness training services.
 https://puppetaj.github.io/run-buddy/
 
 ## Contribution 
-Made with ❤️ by [your name]
+Made with ❤️ by Adrian Jimenez
+
+### ©️2019 Run Buddy, Inc 
